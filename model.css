@@ -11,3 +11,23 @@ body{
 .green{
     color:green;
 }
+.yellow{
+    color:yellow;
+}
+.gray{
+    color:gray;
+}
+#example {/*親要素*/
+     position: relative;
+     padding:0;/*要素内の余白は消す*/
+}
+#example span{/*文字*/
+     position: absolute;
+     bottom: 0;
+     right: 0;
+     /*以下装飾*/
+     color: white;
+     background: #74c1f8;
+     padding:0 2px;
+     line-height:1.5em;
+}
